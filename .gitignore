@@ -1,0 +1,57 @@
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials/
+secrets/
+auth.json
+*credentials*.json
+*token*.txt
+*secret*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / JS
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.npm/
+.yarn/cache/
+.pnpm-store/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Runtime / logs / temporary
+*.log
+*.pid
+*.tmp
+*.temp
+.cache/
+.tmp/
+tmp/
+
+# Local agent state
+.claude/local*
